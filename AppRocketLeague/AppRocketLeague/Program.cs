@@ -10,6 +10,11 @@ namespace AppRocketLeague
     {
         static void Main(string[] args)
         {
+            // Récupération datas (compétition, participant...)
+
+            // Création objets
+
+            // Affichage
         }
     }
 }
