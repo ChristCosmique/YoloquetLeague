@@ -8,7 +8,7 @@ namespace AppRocketLeague
 {
     class Tournament
     {
-        List<Competitor> contestants;
+        List<Team> contestants;
         DateTime eventDate;
         string location;
 
@@ -17,7 +17,7 @@ namespace AppRocketLeague
             
         }
 
-        Tournament(List<Competitor> _contestants, DateTime _eventDate, string _location)
+        Tournament(List<Team> _contestants, DateTime _eventDate, string _location)
         {
             contestants = _contestants;
             eventDate = _eventDate;
